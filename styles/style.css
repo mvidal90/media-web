@@ -44,6 +44,7 @@ audio {
 table{
     border-collapse: collapse ;
 }
+
 thead{
     background-color: rgb(251, 215, 148);
 }
@@ -52,12 +53,27 @@ th, td{
     border: 1px solid black;
     padding: 0.5rem;
 }
+
 td{
     text-align: center;
 }
-.row-pink{
+
+/* .row-pink{
     background-color: rgb(255, 227, 232);
 }
+
 .row-gray{
     background-color: rgb(183, 183, 183);
+} */
+
+/* Para los hijos impares */
+tbody tr:nth-child(odd) {
+    /* tr:nth-child(2n+1) */
+    background-color: rosybrown;
 }
+/* Para los hijos pares */
+tbody tr:nth-child(even) {
+    /* tr:nth-child(2n) */
+    background-color: silver;
+}
+
