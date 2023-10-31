@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../styles/style.css">
-</head>
-<body style="background: violet;">
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
     <h1>Tablas!</h1>
-</body>
+    <table>
+      <caption>
+        Contenido nutricional cada 100gr
+      </caption>
+      <thead>
+        <th>Alimento</th>
+        <th>Calorias (kCal)</th>
+        <th>Grasas (g)</th>
+        <th>Proteina (g)</th>
+        <th>Carbohidratos (g)</th>
+      </thead>
+      <tbody>
+        <tr class="row-pink">
+          <td>Arandanos</td>
+          <td>49</td>
+          <td>0.2</td>
+          <td colspan="2">0.4</td>
+          <!-- <td>12.7</td> -->
+        </tr>
+        <tr class="row-gray">
+          <td>Banana</td>
+          <td>90</td>
+          <td>0.3</td>
+          <td rowspan="2">2.0</td>
+          <td>23.5</td>
+        </tr>
+        <tr class="row-pink">
+          <td>Cereza</td>
+          <td>46</td>
+          <td>0.4</td>
+          <!-- <td>0.9</td> -->
+          <td>10.9</td>
+        </tr>
+        <tr class="row-gray">
+          <td>Frutilla</td>
+          <td>37</td>
+          <td>0.5</td>
+          <td>0.8</td>
+          <td>8.3</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
